@@ -21,7 +21,7 @@ export default function Home() {
 
         <header className="relative z-30 flex items-center justify-between px-6 py-8 lg:px-10">
           <h1 className="text-3xl lg:text-4xl font-medium tracking-[-0.07em]">
-            Rise at Seve<span className="text-xs align-super">®</span>
+            Rise at Seven<span className="text-xs align-super">®</span>
           </h1>
 
           <nav className="hidden lg:flex items-center gap-8 text-xl font-semibold">
