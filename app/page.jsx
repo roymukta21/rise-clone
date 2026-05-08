@@ -14,7 +14,7 @@ export default function Home() {
 
       <section className="relative overflow-hidden rounded-[32px]  min-h-screen mt-1 text-white">
         <div
-          className="absolute inset-0 scale-110 opacity-85 blur-xl bg-cover bg-center"
+          className="absolute inset-0 scale-110 opacity-85 blur-md bg-cover bg-center"
           style={{ backgroundImage: "url('/images/herobg.jpg')" }}
         />
         <div className="absolute inset-0 bg-black/35" />
@@ -43,9 +43,9 @@ export default function Home() {
 
           <button
             onClick={() => setMenuOpen(true)}
-            className="lg:hidden bg-white text-black px-5 py-3 rounded-full font-bold"
+            className="lg:hidden bg-white text-black px-5 py-3 rounded-full font-bold text-3xl"
           >
-            Menu
+            =
           </button>
         </header>
 
