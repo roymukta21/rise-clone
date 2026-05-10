@@ -26,14 +26,14 @@ const Hero = () => {
         on every searchable platform
       </p>
 
-      <div className="hidden lg:flex absolute left-8 right-8 -bottom-36 justify-between text-left text-2xl font-medium tracking-[-0.04em]">
+      <div className="hidden lg:flex absolute left-8 right-8 -bottom-30 justify-between text-left text-2xl font-light">
         <p>
-          Organic media planners creating, distributing & optimising
+          Organic media planners creating, distributing & optimizing
           <br />
           <b>search-first content</b> for SEO, Social, PR, Ai and LLM search
         </p>
 
-        <p className="text-right font-bold">
+        <p className="text-right">
           4 Global Offices serving
           <br />
           UK, USA (New York) & EU

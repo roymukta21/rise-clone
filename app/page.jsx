@@ -4,6 +4,7 @@ import { useState } from "react";
 
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
+import MegaMenu from "./components/MegaMenu";
 import MobileMenu from "./components/MobileMenu";
 import AgencyIntro from "./components/AgencyIntro";
 
