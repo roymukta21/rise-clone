@@ -46,7 +46,7 @@ const AgencyIntro = () => {
             <br />
             Discovery
             <Image
-              src="/images/herobg.jpg"
+              src="/images/mini.png"
               alt=""
               width={96}
               height={96}
