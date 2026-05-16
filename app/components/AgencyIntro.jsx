@@ -34,14 +34,9 @@ const AgencyIntro = () => {
       </div>
 
       {/* CONTENT */}
-      <div className="grid gap-16 px-8 lg:grid-cols-2 lg:px-10">
-        <h2 className="max-w-[780px] text-3xl font-semibold leading-[0.95] tracking-[-0.08em] lg:text-[34px]">
-          A global team of search-first content marketers engineering semantic
-          relevancy & category signals for both the internet and people
-        </h2>
-
-        <div>
-          <h3 className="text-6xl font-semibold leading-[0.86] tracking-[-0.09em] lg:text-[110px]">
+      <div className="flex flex-col gap-8 px-5 md:px-8 lg:grid lg:grid-cols-2 lg:gap-16 lg:px-10">
+        <div className="order-1 lg:order-2">
+          <h3 className="text-[58px] font-semibold leading-[0.86] tracking-[-0.09em] sm:text-[72px] lg:text-[70px]">
             Driving Demand &
             <br />
             Discovery
@@ -50,19 +45,24 @@ const AgencyIntro = () => {
               alt=""
               width={96}
               height={96}
-              className="ml-4 inline-block h-24 w-24 rounded-2xl object-cover align-middle"
+              className="ml-3 inline-block h-16 w-16 rounded-2xl object-cover align-middle sm:h-20 sm:w-20 lg:h-24 lg:w-24"
             />
           </h3>
+        </div>
 
-          <div className="mt-10 flex items-center gap-6">
-            <button className="rounded-full bg-white px-9 py-5 text-xl font-semibold">
-              Our Story ↗
-            </button>
+        <h2 className="order-2 max-w-[780px] text-3xl font-semibold leading-[0.95] tracking-[-0.08em] lg:order-1 lg:text-[25px]">
+          A global team of search-first content marketers engineering semantic
+          relevancy & category signals for both the internet and people
+        </h2>
 
-            <button className="rounded-full px-4 py-5 text-xl font-semibold">
-              Our Services ↗
-            </button>
-          </div>
+        <div className="order-3 flex w-full flex-col gap-3 sm:flex-row lg:col-start-2 lg:flex-row lg:gap-6">
+          <button className="w-full rounded-full bg-white px-9 py-5 text-xl font-semibold sm:w-auto">
+            Our Story ↗
+          </button>
+
+          <button className="w-full rounded-full px-9 py-5 text-xl font-semibold sm:w-auto lg:px-4">
+            Our Services ↗
+          </button>
         </div>
       </div>
     </section>

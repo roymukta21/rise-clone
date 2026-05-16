@@ -7,6 +7,7 @@ import Hero from "./components/Hero";
 import MegaMenu from "./components/MegaMenu";
 import MobileMenu from "./components/MobileMenu";
 import AgencyIntro from "./components/AgencyIntro";
+import Footer from "./components/Footer";
 
 export default function Home() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -45,6 +46,7 @@ export default function Home() {
         
       </section>
       <AgencyIntro />
+      <Footer />
 
       {menuOpen && (
         <MobileMenu setMenuOpen={setMenuOpen} />

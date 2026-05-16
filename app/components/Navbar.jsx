@@ -51,7 +51,7 @@ const Navbar = ({
         <a href="#">Webinar</a>
       </nav>
 
-      <button className="hidden lg:block bg-white text-black px-8 py-4 rounded-full font-bold">
+      <button className="hidden lg:block bg-white text-black px-3 py-2 rounded-full font-bold">
         Get In Touch ↗
       </button>
 
