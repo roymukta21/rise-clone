@@ -10,7 +10,7 @@ const Footer = () => {
             Stay updated with Rise news
           </h2>
 
-          <div className="flex h-[82px] items-center overflow-hidden rounded-full bg-zinc-900">
+          <div className="flex h-20.5 items-center overflow-hidden rounded-full bg-zinc-900">
             <input
               type="text"
               placeholder="Your Email Address"
